@@ -1,0 +1,22 @@
+{
+  "name": "github-classroom-get",
+  "version": "1.0.0",
+  "description": "A script to get all the assignments from the classroom",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "github",
+    "classroom",
+    "download"
+  ],
+  "author": "Caius Brindescu",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "parse-link-header": "^1.0.1",
+    "request": "^2.81.0"
+  }
+}
