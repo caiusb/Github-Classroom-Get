@@ -1,4 +1,4 @@
-# Downloading assignments from the GitHub Classroom made is
+# Downloading assignments from the GitHub Classroom
 
 ## Install
 
