@@ -13,6 +13,7 @@
     "download"
   ],
   "author": "Caius Brindescu",
+  "repository": "caiusb/Github-Classroom-Get",
   "license": "ISC",
   "dependencies": {
     "minimist": "^1.2.0",
