@@ -13,7 +13,7 @@ has `repo` scope access.
 
 You can then call:
 
-`github-classroom-get` --org <org> --user <user> --token <token> --assignment <assignment> [--save]
+`github-classroom-get --org <org> --user <user> --token <token> --assignment <assignment> [--save]``
 
 This will create a new folder in the local directory named '<assignment>' and it
 will download all assignments in there.
