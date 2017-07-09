@@ -1,6 +1,6 @@
 {
   "name": "github-classroom-get",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A script to get all the assignments from the classroom",
   "main": "index.js",
   "scripts": {
