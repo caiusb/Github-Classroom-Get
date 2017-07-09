@@ -66,7 +66,7 @@ function cloneAssignments(repos) {
   var assignmentRepos = repos.filter((repo) => {
     return repo['name'].startsWith(assignment);
   });
-  var assignmentDir = __dirname + '/' + assignment;
+  var assignmentDir = process.cwd() + '/' + assignment;
   if (!fs.existsSync(assignmentDir))
     fs.mkdirSync(assignmentDir);
   process.chdir(assignmentDir);
