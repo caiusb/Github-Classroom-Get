@@ -11,6 +11,20 @@ var token = argv['token'];
 var save = argv['save'];
 var assignment = argv['assignment'];
 
+const credentials = 'credentials.json';
+
+if (fs.existsSync(credentials)) {
+  var savedAuth = JSON.parse(fs.readFileSync(credentials));
+  org = savedAuth['org'];
+  user = savedAuth['user'];
+  token = savedAuth['token'];
+}
+
+if (save) {
+  fs.writeFileSync(credentials,
+    JSON.stringify({'org': org, 'user': user, 'token': token}))
+}
+
 var options = {
   url: 'https://api.github.com/orgs/' + org + '/repos',
   headers: {
