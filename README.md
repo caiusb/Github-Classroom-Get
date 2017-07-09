@@ -22,6 +22,6 @@ If you specify the optional [--save] argument, it will save the organization, us
 and token to `credentials.json` file in the current directory. Future calls can
 then be made as `github-classroom-get --assignment <assignment>`
 
-#License
+## License
 
 The following script is distributed under the [MIT License](http://www.opensource.org/licenses/MIT).
